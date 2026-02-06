@@ -3,24 +3,24 @@ class Lily < Formula
   homepage "https://github.com/lily2d/lily2d"
   license "MIT"
 
-  version "0.3.1"
+  version "0.3.2"
 
   on_linux do
     on_intel do
       url "https://github.com/lily2d/lily2d/releases/download/v#{version}/lily-#{version}-linux-x86_64.tar.gz"
-      sha256 ""
+      sha256 "af0ffa3a167f47d933b6e1ec14decbe614d839514d42578eeb7be82c2c46ef9e"
     end
   end
 
   on_macos do
     on_arm do
       url "https://github.com/lily2d/lily2d/releases/download/v#{version}/lily-#{version}-macos-arm64.tar.gz"
-      sha256 "96e14b010c2c07f72ff42f82d229bf2c84cd1caeaf8984b1cb73652e6da5e8a3"
+      sha256 "1a284149431b3d7803f3420e270463be93935b8ea17b3191a3d313a7cab7ce4d"
     end
 
     on_intel do
       url "https://github.com/lily2d/lily2d/releases/download/v#{version}/lily-#{version}-macos-x86_64.tar.gz"
-      sha256 "92cc1d2c094c87e7df80b248be8320e546840e2fedc92e3296ce1150c67f4d93"
+      sha256 "e459751cb691cca69c611463fc1d24bfd633a350fcae35f49a45c7e54247a722"
     end
   end
 
